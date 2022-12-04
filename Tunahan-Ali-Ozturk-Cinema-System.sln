@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TAO.CinemaSystem.Business", "TAO.CinemaSystem.Business\TAO.CinemaSystem.Business.csproj", "{55C2B863-F406-4C47-B597-D2CF043F37B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TAO.CinemaSystem.DataAccess", "TAO.CinemaSystem.DataAccess\TAO.CinemaSystem.DataAccess.csproj", "{C4EBA6AE-57FC-48DF-AC78-00B6B10646D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TAO.CinemaSystem.Entities", "TAO.CinemaSystem.Entities\TAO.CinemaSystem.Entities.csproj", "{E65C7C51-A353-4644-9C3B-1BE1AFEDD0BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TAO.CinemaSystem.WebAPI", "TAO.CinemaSystem.WebAPI\TAO.CinemaSystem.WebAPI.csproj", "{FDECFD53-42E8-4F29-BD2E-1E2C3AC85E73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TAO_Core", "TAO_Core\TAO_Core.csproj", "{539CFF21-2D92-44A3-A957-A8450AC7C228}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55C2B863-F406-4C47-B597-D2CF043F37B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C2B863-F406-4C47-B597-D2CF043F37B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C2B863-F406-4C47-B597-D2CF043F37B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C2B863-F406-4C47-B597-D2CF043F37B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4EBA6AE-57FC-48DF-AC78-00B6B10646D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4EBA6AE-57FC-48DF-AC78-00B6B10646D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4EBA6AE-57FC-48DF-AC78-00B6B10646D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4EBA6AE-57FC-48DF-AC78-00B6B10646D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E65C7C51-A353-4644-9C3B-1BE1AFEDD0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65C7C51-A353-4644-9C3B-1BE1AFEDD0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E65C7C51-A353-4644-9C3B-1BE1AFEDD0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65C7C51-A353-4644-9C3B-1BE1AFEDD0BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDECFD53-42E8-4F29-BD2E-1E2C3AC85E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDECFD53-42E8-4F29-BD2E-1E2C3AC85E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDECFD53-42E8-4F29-BD2E-1E2C3AC85E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDECFD53-42E8-4F29-BD2E-1E2C3AC85E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539CFF21-2D92-44A3-A957-A8450AC7C228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539CFF21-2D92-44A3-A957-A8450AC7C228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539CFF21-2D92-44A3-A957-A8450AC7C228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539CFF21-2D92-44A3-A957-A8450AC7C228}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42B10189-539A-4439-8181-FEDCC9745906}
+	EndGlobalSection
+EndGlobal
