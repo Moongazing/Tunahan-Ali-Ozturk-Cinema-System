@@ -15,7 +15,7 @@ namespace TAO.CinemaSystem.Business.Abstract
     IDataResult<List<Movie>> GetAll();
     IDataResult<List<Movie>> GetByDirector(string director);
     IDataResult<List<Movie>> GetByPublisher(string publisher);
-    IDataResult<List<Movie>> GetByHall(string hall);
+    IDataResult<List<Movie>> GetByHall(int hallId);
     IDataResult<List<Movie>> GetByDuration(DateTime duration);
     IDataResult<List<Movie>> GetByReleaseDate(DateTime releaseDate);
     IDataResult<List<Movie>> GetByVisionDate(DateTime visionDate);

@@ -9,7 +9,7 @@ namespace TAO.CinemaSystem.Entities.Concrete
   {
     public int Id { get; set; }
     public string Name { get; set; }
-    public string Hall { get; set; }
+    public int HallId { get; set; }
     public DateTime ReleaseDate { get; set; }
     public DateTime VisionDate{ get; set; }
     public DateTime VisionEndDate { get; set; }

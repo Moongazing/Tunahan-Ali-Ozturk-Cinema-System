@@ -52,9 +52,9 @@ namespace TAO.CinemaSystem.Business.Concrete
       return new SuccessDataResult<List<Movie>>(_movieDal.GetAll(m=>m.Duration == duration), Messages.MoviesListedSuccessfly);
     }
     [CacheAspect]
-    public IDataResult<List<Movie>> GetByHall(string hall)
+    public IDataResult<List<Movie>> GetByHall(int hallId)
     {
-      return new SuccessDataResult<List<Movie>>(_movieDal.GetAll(m=>m.Hall == hall), Messages.MoviesListedSuccessfly);
+      return new SuccessDataResult<List<Movie>>(_movieDal.GetAll(m=>m.HallId == hallId), Messages.MoviesListedSuccessfly);
     }
     [CacheAspect]
     public IDataResult<List<Movie>> GetByMovieName(string movieName)
