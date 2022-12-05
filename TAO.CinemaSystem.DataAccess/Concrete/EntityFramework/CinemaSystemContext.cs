@@ -14,5 +14,6 @@ namespace TAO.CinemaSystem.DataAccess.Concrete.EntityFramework
       optionsBuilder.UseSqlServer(@"Server =(localdb)\MSSQLLocalDB;Database =Cinema_System;Trusted_Connection=true");
     }
     public DbSet<Movie> Movies { get; set; }
+    public DbSet<Hall> Halls { get; set; }
   }
 }
