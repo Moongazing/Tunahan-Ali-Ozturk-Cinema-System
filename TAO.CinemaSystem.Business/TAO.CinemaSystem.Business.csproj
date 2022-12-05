@@ -5,8 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\" />
     <Folder Include="Abstract\" />
+    <Folder Include="ValidationRules\FluentValidation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.5.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TAO.CinemaSystem.DataAccess\TAO.CinemaSystem.DataAccess.csproj" />
+    <ProjectReference Include="..\TAO.CinemaSystem.Entities\TAO.CinemaSystem.Entities.csproj" />
+    <ProjectReference Include="..\TAO_Core\TAO_Core.csproj" />
   </ItemGroup>
 
 </Project>
