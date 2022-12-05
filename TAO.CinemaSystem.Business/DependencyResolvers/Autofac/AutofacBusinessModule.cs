@@ -19,6 +19,9 @@ namespace TAO.CinemaSystem.Business.DependencyResolvers.Autofac
       builder.RegisterType<HallManager>().As<IHallService>().SingleInstance();
       builder.RegisterType<EfHallDal>().As<IHallDal>().SingleInstance();
 
+      builder.RegisterType<CustomerManager>().As<ICustomerService>().SingleInstance();
+      builder.RegisterType<EfCustomerDal>().As<ICustomerDal>().SingleInstance();
+
 
     }
   }

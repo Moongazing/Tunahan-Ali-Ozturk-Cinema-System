@@ -15,5 +15,6 @@ namespace TAO.CinemaSystem.DataAccess.Concrete.EntityFramework
     }
     public DbSet<Movie> Movies { get; set; }
     public DbSet<Hall> Halls { get; set; }
+    public DbSet<Customer> Customers { get; set; }
   }
 }

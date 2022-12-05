@@ -11,7 +11,7 @@ namespace TAO.CinemaSystem.Business.ValidationRules.FluentValidation
     public MovieValidator()
     {
       RuleFor(m => m.Name).NotEmpty();
-      RuleFor(m => m.Hall).NotEmpty();
+      RuleFor(m => m.HallId).NotEmpty();
       RuleFor(m => m.Publisher).NotEmpty();
       RuleFor(m => m.Director).NotEmpty();
       RuleFor(m => m.Session).NotEmpty();
